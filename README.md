@@ -12,3 +12,7 @@ Created by Naga564
 1. Please run the below command
 1. git clone https://github.com/Naga564/UC-sample.git
 1. open file index.html 
+
+## request
+- Please write issues
+  - Request new features
