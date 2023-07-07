@@ -1,6 +1,6 @@
 //スペック回り
 var normalHitRate = 205; //通常時大当たり確率=(normalHitRate/65536)≒1/319.7
-var rushHitRate = 15950; //RUSH時実質大当たり確率=(rushHitRate/65536)≒1/41.1
+var rushHitRate = 1595; //RUSH時実質大当たり確率=(rushHitRate/65536)≒1/41.1
 var rushFallRate = 426; //RUSH時転落小当たり確率=(rushFallRate/65536)≒1/153.7
 var fever3000Rate = 20; //3000FEVER振り分け確率(%)
 var rushRate = 40; //RUSH突入振り分け確率(%)
