@@ -3,7 +3,7 @@ var count = 0; //回転数
 var hitcount = 0; //初当たり回数
 var totalcount = 0; //総回転数
 var hitflag = true;
-//大当たり確率(nomalHitRate/65535)
+//大当たり確率(normalHitRate/65535)
 var nomalHitRate = 2060
 
 // var start = document.getElementById("start");
