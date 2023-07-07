@@ -48,7 +48,7 @@ function start(){
 
     }else if(mode== "rush"){
         //RUSH時抽選
-        var rollstatus = hitjudge(number,normalHitRate,rushFallRate);
+        var rollstatus = hitjudge(number,rushHitRate,rushFallRate);
         if(rollstatus == "jackpot"){
             //RUSH中大当り
             totalJackpot++;
@@ -64,7 +64,7 @@ function start(){
         }
     }else if(mode == "3000FEVER"){
         //3000FEVER時抽選
-        var rollstatus = hitjudge(number,normalHitRate,rushFallRate);
+        var rollstatus = hitjudge(number,rushHitRate,rushFallRate);
         if(rollstatus == "jackpot"){
             //3000FEVER中大当り
             totalJackpot++;
@@ -80,7 +80,7 @@ function start(){
         }
     }else if(mode == "HYPER"){
         //覚醒HYPERのとき
-        var rollstatus = hitjudge(number,normalHitRate,rushFallRate);
+        var rollstatus = hitjudge(number,rushHitRate,rushFallRate);
         if(rollstatus == "jackpot"){
             //RUSH中大当り
             totalJackpot++;
