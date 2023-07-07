@@ -48,7 +48,7 @@ function start(){
         if(hitjudge(number,normalHitRate,0)=="jackpot"){
             //大当り処理
             totalJackpot++;
-            rollCount = 0;
+
             //RUSH振り分け
             rushJudge();
         }
@@ -112,6 +112,7 @@ function hitjudge(number,hitrate,fallrate){
         //大当り
         console.log("大当り");
         rollResult+="大当り!";
+        rollCount = 0;
         return "jackpot";
     }else if(randomNumber - fallrate < number){
         //転落小当たり
